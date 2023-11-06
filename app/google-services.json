@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855456419604",
+    "project_id": "nextxfrom-vividvista",
+    "storage_bucket": "nextxfrom-vividvista.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855456419604:android:e398f170494170b769fc01",
+        "android_client_info": {
+          "package_name": "com.nextxform.vividvista"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq-3dtAnXLDCW3KjZn6lbNBxL4ssdK6Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

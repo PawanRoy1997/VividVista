@@ -2,4 +2,5 @@
 plugins {
     alias(libs.plugins.appliation) apply false
     alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.google.services) apply false
 }
