@@ -8,6 +8,7 @@ import config.ProjectConfig.Android.Packaging.Resources
 plugins {
     alias(libs.plugins.appliation)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -66,6 +67,13 @@ dependencies {
     implementation(libs.compose.ui.graphics)
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.material3)
+
+    //Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.database)
+
+    // Unit Testing
     testImplementation(libs.junit)
 
     // Instrumentation

@@ -8,6 +8,8 @@ android-junit = "1.1.5"
 espresso = "3.5.1"
 application-version = "8.1.2"
 kotlin-android-version = "1.8.10"
+google-services-version = "4.4.0"
+firebase-version = "32.5.0"
 
 [libraries]
 androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -24,7 +26,11 @@ androidx-espresso = { group = "androidx.test.espresso", name = "espresso-core", 
 compose-junit = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 ui-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-version" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database" }
 
 [plugins]
 appliation = { id = "com.android.application", version.ref = "application-version" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin-android-version" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services-version" }
