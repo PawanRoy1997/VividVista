@@ -4,6 +4,9 @@
 
     <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VividVista"
         tools:targetApi="31">
+        <activity
+            android:name=".WallpaperFullScreenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_wallpaper_full_screen"
+            android:theme="@style/Theme.VividVista" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

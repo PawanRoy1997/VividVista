@@ -68,10 +68,16 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.material3)
 
+    implementation (libs.gson)
+    implementation(libs.coil)
+
     //Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.database)
+    implementation(libs.firebase.storage)
+    implementation(libs.lifecycle.runtine)
+    implementation(platform(libs.compose.bom))
 
     // Unit Testing
     testImplementation(libs.junit)
@@ -81,6 +87,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso)
     androidTestImplementation(libs.compose.junit)
+    androidTestImplementation(platform(libs.compose.bom))
 
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.manifest)

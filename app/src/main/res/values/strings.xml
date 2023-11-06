@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VividVista</string>
+    <string name="title_activity_wallpaper_full_screen">WallpaperFullScreenActivity</string>
 </resources>
